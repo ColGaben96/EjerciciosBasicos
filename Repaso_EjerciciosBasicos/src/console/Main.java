@@ -75,6 +75,7 @@ public class Main
 					System.out.println(B2n+" * "+B2m+" = "+B2total);
 					B2total = 0;
 					break;
+					//test
 			}
 		}
 
