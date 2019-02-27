@@ -40,7 +40,7 @@ public class Main
 					 * @param ayuda
 					 * Se muestra la ayuda para la aplicacion
 					 */
-					System.out.println("Los puntos est醤 basados en el documento http://bit.ly/2IAyAAd. Para mayor informacion\n"
+					System.out.println("Los puntos est谩n basados en el documento http://bit.ly/2IAyAAd. Para mayor informacion\n"
 							+ "ingresa a la pagina para saber de que se esta hablando\n"
 							+ "\nCOMANDO \t DESCRIPCION \n\n"
 							+ "salir \t  Cierra el programa \n"
@@ -72,9 +72,9 @@ public class Main
 					/**
 					 * @param basico1
 					 *  Programa java que realice lo siguiente: declarar una variable N de tipo int, una variable A de tipo
-					 *  double y una variable C de tipo char y asigna a cada una un valor. A continuaci髇, muestra por
-					 *  pantalla: El valor de cada variable, la suma de N + A, la diferencia de A - N, el valor num閞ico
-					 *  correspondiente al car醕ter que contiene la variable C. 
+					 *  double y una variable C de tipo char y asigna a cada una un valor. A continuaci贸n, muestra por
+					 *  pantalla: El valor de cada variable, la suma de N + A, la diferencia de A - N, el valor num茅rico
+					 *  correspondiente al car谩cter que contiene la variable C. 
 					 */
 					// Se declaran variables B1 como Basico 1
 					int B1n = 3;
@@ -92,7 +92,7 @@ public class Main
 					/**
 					 * @param basico2
 					 *  Programa java que realice lo siguiente: declarar dos variables X e Y de tipo int, dos variables N y
-					 *  M de tipo double y asigna a cada una un valor. A continuaci髇, realiza y muestra por pantalla una
+					 *  M de tipo double y asigna a cada una un valor. A continuaci贸n, realiza y muestra por pantalla una
 					 *  serie de operaciones entre ellas. 
 					 */
 					int B2x=2, B2y=3;
@@ -111,7 +111,7 @@ public class Main
 				case("basico3"):
 					/**
 					 * @param basico3
-					 * Programa Java que declare una variable entera N y as韌nale un valor. A continuaci髇, escribe las
+					 * Programa Java que declare una variable entera N y as铆gnale un valor. A continuaci贸n, escribe las
 					 * instrucciones que realicen lo siguiente: Incrementar N en 77, Decrementarla en 3, Duplicar su
 					 * valor.
 					 */
@@ -126,8 +126,8 @@ public class Main
 				case("basico4"):
 					/**
 					 * @param basico4
-					 *  Programa java que declare cuatro variables enteras A, B, C y D y as韌nale un valor acada una. A
-					 *  continuaci髇, realiza las instrucciones necesarias para que: B tome el valor de C, C tome el valor de
+					 *  Programa java que declare cuatro variables enteras A, B, C y D y as铆gnale un valor acada una. A
+					 *  continuaci贸n, realiza las instrucciones necesarias para que: B tome el valor de C, C tome el valor de
 					 *  A, A tome el valor de D, D tome el valor de B. 
 					 */
 					int B4a=1, B4b=2, B4c=3, B4d=4;
@@ -140,7 +140,7 @@ public class Main
 				case("basico5"):
 					/**
 					 * @param basico5
-					 *  Programa Java que declare una variable A de tipo entero y as韌nale un valor. A continuaci髇
+					 *  Programa Java que declare una variable A de tipo entero y as铆gnale un valor. A continuaci贸n
 					 *  muestra un mensaje indicando si A es par o impar. Utiliza el operador condicional ( ? : ) dentro del
 					 *  println para resolverlo. 
 					 */
@@ -155,7 +155,7 @@ public class Main
 				case("basico6"):
 					/**
 					 * @param basico6
-					 *  Programa Java que declare una variable B de tipo entero y as韌nale un valor. A continuaci髇
+					 *  Programa Java que declare una variable B de tipo entero y as铆gnale un valor. A continuaci贸n
 					 *  muestra un mensaje indicando si el valor de B es positivo o negativo. Consideraremos el 0 como
 					 *  positivo. Utiliza el operador condicional (? : ) dentro del println para resolverlo. 
 					 */
@@ -180,9 +180,9 @@ public class Main
 				case("basico7"):
 					/**
 					 * @param basico7
-					 *  Programa Java que declare una variable C de tipo entero y as韌nale un valor. A continuaci髇
+					 *  Programa Java que declare una variable C de tipo entero y as铆gnale un valor. A continuaci贸n
 					 *  muestra un mensaje indicando si el valor de C es positivo o negativo, si es par o impar, si es
-					 *  m鷏tiplo de 5, si es m鷏tiplo de 10 y si es mayor o menor que 100. Consideraremos el 0 como
+					 *  m煤ltiplo de 5, si es m煤ltiplo de 10 y si es mayor o menor que 100. Consideraremos el 0 como
 					 *  positivo. Utiliza el operador condicional ( ? : ) dentro del println para resolverlo. 
 					 */
 					int B7c = 20;
@@ -214,9 +214,8 @@ public class Main
 				case("secuencial1"):
 					/**
 					 * @param secuencial1
-					 *  Programa Java que lea dos n鷐eros enteros por teclado y los muestre por pantalla. 
+					 *  Programa Java que lea dos n煤meros enteros por teclado y los muestre por pantalla. 
 					 */
-					
 					break;
 			}
 		}
