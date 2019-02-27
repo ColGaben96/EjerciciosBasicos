@@ -2,6 +2,10 @@ package console;
 
 import java.util.Scanner;
 
+/**
+ * @author Gabe
+ *	Este es el Javadoc de los ejercicios de repaso de Ricardo Camargo
+ */
 public class Main 
 {
 	static Scanner sc = new Scanner(System.in);
@@ -18,12 +22,24 @@ public class Main
 			switch(com)
 			{
 				default:
+					/**
+					 * @param default
+					 * Se muestra el caso de error, en este caso el caso por defecto.
+					 */
 					System.out.println("Operacion invalida. Verifica e intenta nuevamente o escribe 'ayuda' para ver mas comandos");
 					break;
 				case("salir"):
+					/**
+					 * @param salir
+					 * Se sale del programa
+					 */
 					activo = false;
 					return;
 				case("ayuda"):
+					/**
+					 * @param ayuda
+					 * Se muestra la ayuda para la aplicacion
+					 */
 					System.out.println("Los puntos están basados en el documento http://bit.ly/2IAyAAd. Para mayor informacion\n"
 							+ "ingresa a la pagina para saber de que se esta hablando\n"
 							+ "\nCOMANDO \t DESCRIPCION \n\n"
@@ -38,10 +54,23 @@ public class Main
 							+ "basico6 \t  Muestra el punto 6 de los ejercicios basicos iniciales\n"
 							+ "basico7 \t  Muestra el punto 7 de los ejercicios basicos iniciales\n"
 							+ "\nEJERCICIOS BASICOS CON ESTRUCTURA SECUENCIAL\n\n"
-							+ "secuencial1 \t  Muestra el punto 1 de los ejercicios basicos secuenciales\n");
+							+ "secuencial1 \t  Muestra el punto 1 de los ejercicios basicos secuenciales\n"
+							+ "secuencial2 \t  Muestra el punto 2 de los ejercicios basicos secuenciales\n"
+							+ "secuencial3 \t  Muestra el punto 3 de los ejercicios basicos secuenciales\n"
+							+ "secuencial4 \t  Muestra el punto 4 de los ejercicios basicos secuenciales\n"
+							+ "secuencial5 \t  Muestra el punto 5 de los ejercicios basicos secuenciales\n"
+							+ "secuencial6 \t  Muestra el punto 6 de los ejercicios basicos secuenciales\n"
+							+ "secuencial7 \t  Muestra el punto 7 de los ejercicios basicos secuenciales\n"
+							+ "secuencial8 \t  Muestra el punto 8 de los ejercicios basicos secuenciales\n"
+							+ "secuencial9 \t  Muestra el punto 9 de los ejercicios basicos secuenciales\n"
+							+ "secuencial10 \t  Muestra el punto 10 de los ejercicios basicos secuenciales\n"
+							+ "secuencial11 \t  Muestra el punto 11 de los ejercicios basicos secuenciales\n"
+							+ "secuencial12 \t  Muestra el punto 12 de los ejercicios basicos secuenciales\n"
+							+ "secuencial13 \t  Muestra el punto 13 de los ejercicios basicos secuenciales\n");
 					break;
 				case("basico1"):
-					/*
+					/**
+					 * @param basico1
 					 *  Programa java que realice lo siguiente: declarar una variable N de tipo int, una variable A de tipo
 					 *  double y una variable C de tipo char y asigna a cada una un valor. A continuación, muestra por
 					 *  pantalla: El valor de cada variable, la suma de N + A, la diferencia de A - N, el valor numérico
@@ -60,7 +89,8 @@ public class Main
 							+ "Diferencia N-A = "+B1minNA+"\n");
 					break;
 				case("basico2"):
-					/*
+					/**
+					 * @param basico2
 					 *  Programa java que realice lo siguiente: declarar dos variables X e Y de tipo int, dos variables N y
 					 *  M de tipo double y asigna a cada una un valor. A continuación, realiza y muestra por pantalla una
 					 *  serie de operaciones entre ellas. 
@@ -79,7 +109,8 @@ public class Main
 					B2total = 0;
 					break;
 				case("basico3"):
-					/*
+					/**
+					 * @param basico3
 					 * Programa Java que declare una variable entera N y asígnale un valor. A continuación, escribe las
 					 * instrucciones que realicen lo siguiente: Incrementar N en 77, Decrementarla en 3, Duplicar su
 					 * valor.
@@ -93,7 +124,8 @@ public class Main
 					B3n = 0;
 					break;
 				case("basico4"):
-					/*
+					/**
+					 * @param basico4
 					 *  Programa java que declare cuatro variables enteras A, B, C y D y asígnale un valor acada una. A
 					 *  continuación, realiza las instrucciones necesarias para que: B tome el valor de C, C tome el valor de
 					 *  A, A tome el valor de D, D tome el valor de B. 
@@ -106,7 +138,8 @@ public class Main
 					System.out.println(B4a+", "+B4b+", "+B4c+", "+B4d);
 					break;
 				case("basico5"):
-					/*
+					/**
+					 * @param basico5
 					 *  Programa Java que declare una variable A de tipo entero y asígnale un valor. A continuación
 					 *  muestra un mensaje indicando si A es par o impar. Utiliza el operador condicional ( ? : ) dentro del
 					 *  println para resolverlo. 
@@ -120,7 +153,8 @@ public class Main
 					System.out.println(B5a+"es un numero impar");
 					break;
 				case("basico6"):
-					/*
+					/**
+					 * @param basico6
 					 *  Programa Java que declare una variable B de tipo entero y asígnale un valor. A continuación
 					 *  muestra un mensaje indicando si el valor de B es positivo o negativo. Consideraremos el 0 como
 					 *  positivo. Utiliza el operador condicional (? : ) dentro del println para resolverlo. 
@@ -144,7 +178,8 @@ public class Main
 					}
 					break;
 				case("basico7"):
-					/*
+					/**
+					 * @param basico7
 					 *  Programa Java que declare una variable C de tipo entero y asígnale un valor. A continuación
 					 *  muestra un mensaje indicando si el valor de C es positivo o negativo, si es par o impar, si es
 					 *  múltiplo de 5, si es múltiplo de 10 y si es mayor o menor que 100. Consideraremos el 0 como
@@ -175,6 +210,12 @@ public class Main
 					{
 						System.out.println(B7c+" es multiplo de 10");
 					}
+					break;
+				case("secuencial1"):
+					/**
+					 * @param secuencial1
+					 *  Programa Java que lea dos números enteros por teclado y los muestre por pantalla. 
+					 */
 					break;
 			}
 		}
