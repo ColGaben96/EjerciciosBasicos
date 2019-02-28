@@ -40,7 +40,7 @@ public class Main
 					 * @param ayuda
 					 * Se muestra la ayuda para la aplicacion
 					 */
-					System.out.println("Los puntos estÃ¡n basados en el documento http://bit.ly/2IAyAAd. Para mayor informacion\n"
+					System.out.println("Los puntos están basados en el documento http://bit.ly/2IAyAAd. Para mayor informacion\n"
 							+ "ingresa a la pagina para saber de que se esta hablando\n"
 							+ "\nCOMANDO \t DESCRIPCION \n\n"
 							+ "salir \t  Cierra el programa \n"
@@ -72,9 +72,9 @@ public class Main
 					/**
 					 * @param basico1
 					 *  Programa java que realice lo siguiente: declarar una variable N de tipo int, una variable A de tipo
-					 *  double y una variable C de tipo char y asigna a cada una un valor. A continuaciÃ³n, muestra por
-					 *  pantalla: El valor de cada variable, la suma de N + A, la diferencia de A - N, el valor numÃ©rico
-					 *  correspondiente al carÃ¡cter que contiene la variable C. 
+					 *  double y una variable C de tipo char y asigna a cada una un valor. A continuación, muestra por
+					 *  pantalla: El valor de cada variable, la suma de N + A, la diferencia de A - N, el valor numérico
+					 *  correspondiente al carácter que contiene la variable C. 
 					 */
 					// Se declaran variables B1 como Basico 1
 					int B1n = 3;
@@ -92,7 +92,7 @@ public class Main
 					/**
 					 * @param basico2
 					 *  Programa java que realice lo siguiente: declarar dos variables X e Y de tipo int, dos variables N y
-					 *  M de tipo double y asigna a cada una un valor. A continuaciÃ³n, realiza y muestra por pantalla una
+					 *  M de tipo double y asigna a cada una un valor. A continuación, realiza y muestra por pantalla una
 					 *  serie de operaciones entre ellas. 
 					 */
 					int B2x=2, B2y=3;
@@ -111,7 +111,7 @@ public class Main
 				case("basico3"):
 					/**
 					 * @param basico3
-					 * Programa Java que declare una variable entera N y asÃ­gnale un valor. A continuaciÃ³n, escribe las
+					 * Programa Java que declare una variable entera N y asígnale un valor. A continuación, escribe las
 					 * instrucciones que realicen lo siguiente: Incrementar N en 77, Decrementarla en 3, Duplicar su
 					 * valor.
 					 */
@@ -126,8 +126,8 @@ public class Main
 				case("basico4"):
 					/**
 					 * @param basico4
-					 *  Programa java que declare cuatro variables enteras A, B, C y D y asÃ­gnale un valor acada una. A
-					 *  continuaciÃ³n, realiza las instrucciones necesarias para que: B tome el valor de C, C tome el valor de
+					 *  Programa java que declare cuatro variables enteras A, B, C y D y asígnale un valor acada una. A
+					 *  continuación, realiza las instrucciones necesarias para que: B tome el valor de C, C tome el valor de
 					 *  A, A tome el valor de D, D tome el valor de B. 
 					 */
 					int B4a=1, B4b=2, B4c=3, B4d=4;
@@ -140,7 +140,7 @@ public class Main
 				case("basico5"):
 					/**
 					 * @param basico5
-					 *  Programa Java que declare una variable A de tipo entero y asÃ­gnale un valor. A continuaciÃ³n
+					 *  Programa Java que declare una variable A de tipo entero y asígnale un valor. A continuación
 					 *  muestra un mensaje indicando si A es par o impar. Utiliza el operador condicional ( ? : ) dentro del
 					 *  println para resolverlo. 
 					 */
@@ -155,7 +155,7 @@ public class Main
 				case("basico6"):
 					/**
 					 * @param basico6
-					 *  Programa Java que declare una variable B de tipo entero y asÃ­gnale un valor. A continuaciÃ³n
+					 *  Programa Java que declare una variable B de tipo entero y asígnale un valor. A continuación
 					 *  muestra un mensaje indicando si el valor de B es positivo o negativo. Consideraremos el 0 como
 					 *  positivo. Utiliza el operador condicional (? : ) dentro del println para resolverlo. 
 					 */
@@ -180,9 +180,9 @@ public class Main
 				case("basico7"):
 					/**
 					 * @param basico7
-					 *  Programa Java que declare una variable C de tipo entero y asÃ­gnale un valor. A continuaciÃ³n
+					 *  Programa Java que declare una variable C de tipo entero y asígnale un valor. A continuación
 					 *  muestra un mensaje indicando si el valor de C es positivo o negativo, si es par o impar, si es
-					 *  mÃºltiplo de 5, si es mÃºltiplo de 10 y si es mayor o menor que 100. Consideraremos el 0 como
+					 *  múltiplo de 5, si es múltiplo de 10 y si es mayor o menor que 100. Consideraremos el 0 como
 					 *  positivo. Utiliza el operador condicional ( ? : ) dentro del println para resolverlo. 
 					 */
 					int B7c = 20;
@@ -214,12 +214,131 @@ public class Main
 				case("secuencial1"):
 					/**
 					 * @param secuencial1
-					 *  Programa Java que lea dos nÃºmeros enteros por teclado y los muestre por pantalla. 
+					 *  Programa Java que lea dos números enteros por teclado y los muestre por pantalla. 
 					 */
+					System.out.print("Ingresa un valor para la variable 1: ");
+					int S1a = sc.nextInt();
+					System.out.print("Ingresa un valor para la variable 2: ");
+					int S1b = sc.nextInt();
+					System.out.println("Las variables ingresadas son: "+S1a+", "+S1b);
+					break;
+				case("secuencial2"):
+					/**
+					 * @param secuencial2
+					 *  Programa Java que lea un nombre y muestre por pantalla: “Buenos dias nombre_introducido”. 
+					 */
+					System.out.print("Ingresa su nombre: ");
+					String S2name = sc.next();
+					System.out.println("Buenos dias "+S2name);
+					break;
+				case("secuencial3"):
+					/**
+					 * @param secuencial3
+					 * Programa Java que lee un número entero por teclado y obtiene y muestra por pantalla el doble
+					 * y el triple de ese número. 
+					 */
+					System.out.print("Ingresa un numero: ");
+					int S3a = sc.nextInt();
+					System.out.println("El numero ingresado es "+S3a+", su doble es "+2*S3a+" y su triple es "+3*S3a);
+					break;
+				case("secuencial4"):
+					/**
+					 * @param secuencial4
+					 * Programa que lea una cantidad de grados centígrados y la pase a grados Fahrenheit. La fórmula
+					 * correspondiente es: F = 32 + ( 9 * C / 5) 
+					 */
+					System.out.print("Escoje una opcion: [°C -> °F / °F -> °C] [1 / 2] $>  ");
+					int S4choose = sc.nextInt();
+					if(S4choose == 1)
+					{
+						System.out.print("Ingresa la temperatura en °C: ");
+						double S4CtoF = sc.nextDouble();
+						System.out.print(S4CtoF+" °C son ");
+						S4CtoF = 32+(9*S4CtoF / 5);
+						System.out.println(S4CtoF+" °F");
+						break;
+					}
+					if(S4choose == 2)
+					{
+						System.out.print("Ingresa la temperatura en °F: ");
+						double S4FtoC = sc.nextDouble();
+						System.out.print(S4FtoC+" °F son ");
+						S4FtoC = (S4FtoC-32)*5/9;
+						System.out.println(S4FtoC+" °C");
+						break;
+						
+					}
+					else
+					{
+						System.out.println("Ingresa una opcion valida.");
+						break;
+					}
+				case("secuencial5"):
+					/**
+					 * @param secuencial5
+					 * Programa que lee por teclado el valor del radio de una circunferencia y calcula y muestra por
+					 * pantalla la longitud y el área de la circunferencia. Longitud de la circunferencia = 2*PI*Radio, Area
+					 * de la circunferencia = PI*Radio^2
+					 */
+					System.out.print("Ingresa un radio para la circunferencia: ");
+					double S5r = sc.nextDouble();
+					double S5longr = 2*(3.1416)*S5r;
+					double S5circ = 3.1416*(S5r*S5r);
+					System.out.println("La longitud de la circunferencia de un radio "+S5r+" es "+S5longr+"\n"
+							+ "El area de la circunferencia"+S5r+" es "+S5circ);
+					break;
+				case("secuencial6"):
+					/**
+					 * @param secuencial6
+					 *  Programa que pase una velocidad en Km/h a m/s. La velocidad se lee por teclado. 
+					 */
+					System.out.print("Escoje una opcion: [Km/h -> m/s / m/s -> Km/h] [1 / 2] $> ");
+					int S6choose = sc.nextInt();
+					if(S6choose == 1)
+					{
+						System.out.print("Ingresa la velocidad (km/h): ");
+						double S6KmtoM = sc.nextDouble();
+						System.out.print(S6KmtoM+" km/h son ");
+						S6KmtoM = (1000*S6KmtoM)/3600;
+						System.out.println(S6KmtoM+" m/s");
+						break;
+					}
+					if(S6choose == 2)
+					{
+						System.out.print("Ingresa la velocidad (m/s): ");
+						double S6MtoKm = sc.nextDouble();
+						System.out.print(S6MtoKm+" m/s son ");
+						S6MtoKm = (3600*S6MtoKm)/1000;
+						System.out.println(S6MtoKm+" Km/h");
+						break;
+					}
+					else
+					{
+						System.out.println("Ingresa una opcion valida.");
+						break;	
+					}
+				case("secuencial7"):
+					/**
+					 * @param secuencial7
+					 * Programa lea la longitud de los catetos de un triángulo rectángulo y calcule la longitud de la
+					 * hipotenusa según el teorema de Pitágoras
+					 */
+					System.out.print("Ingresa la longitud del cateto adyacente: ");
+					double S7ca = sc.nextDouble();
+					System.out.print("Ingresa la longitud del cateto opuesto: ");
+					double S7co = sc.nextDouble();
+					double S7hi = Math.sqrt((S7ca*S7ca)+(S7co*S7co));
+					System.out.println("La longitud de la hipotenusa de los catetos ingresados es "+S7hi);
+					break;
+				case("secuencial8"):
+					/**
+					 * @param secuencial8
+					 *  Programa que calcula el volumen de una esfera. 
+					 */
+					
 					break;
 			}
 		}
-
 	}
 
 }
